@@ -4,6 +4,8 @@ public class Task8 {
 
         StringBuilder stringBuilder = new StringBuilder();
 
+
+
         for (int anInt : ints) {
             int rest = anInt % 37;
             if(!stringBuilder.toString().contains(rest+"")){
@@ -11,8 +13,16 @@ public class Task8 {
             }
         }
 
+        System.out.println(stringBuilder.toString());
 
         System.out.println("Ilosc roznych reszt: ");
         System.out.println(stringBuilder.toString().split(";").length);
+
+
+        String ala = "Ala ma kota";
+
+        for (String s : ala.split("")) {
+            System.out.println(s);
+        }
     }
 }

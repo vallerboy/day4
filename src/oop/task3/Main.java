@@ -8,7 +8,8 @@ public class Main {
         rpg.addPlayer(new Player("Tadek", 91, "Taddix"));
         rpg.addPlayer(new Player("Kocek", 80, "Kociu"));
         rpg.addPlayer(new Player("Misiek", 24, "Lalla"));
-        rpg.addPlayer(new Player("Damian", 24, "Damix"));
+        rpg.addPlayer(new Player("Damian", 24 , "Damix"));
+
 
         rpg.winner();
     }
